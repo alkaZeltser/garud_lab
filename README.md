@@ -1,5 +1,5 @@
 # garud_lab
-Proof that I did something during my first rotation at UCLA Genetics!
+Proof that I did something during my first rotation at UCLA Genetics with the Garud lab!
 
 Overall project theme: How does strain structure in the ocean microbiome compare to the human microbiome?
 
