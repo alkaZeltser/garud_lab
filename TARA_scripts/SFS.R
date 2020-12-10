@@ -8,6 +8,18 @@ snp_freqs = subset(snp_freqs, select = -(site_id))
 
 ## SFS Plot per Sample ##
 
+prep_snps = function(snps){
+  #Filter snp frequencies by these min/max thresholds
+  trimmed = snps[snps < 0.95 & snps > 0.05] 
+  #Fold the plot (any frequencies below 0.5 get subtracted from 1)
+  for (freq in 1:length(trimmed)){
+    if (trimmed[freq] < 0.5){
+      trimmed[freq] = 1 - trimmed[freq]
+    }
+  }
+  return(trimmed)
+}
+
 #Open plotting device (pdf)
 pdf("/Users/nikaz/Desktop/snp_freqs.pdf")
 
@@ -48,18 +60,24 @@ colors = rep("black", length(mid_freqs))
 
 for (i in 1:length(colors)){
   if (names(mid_freqs)[i] == "ERR315857"){
-    colors[i] = "red"
+    colors[i] = "black"
   }else if (names(mid_freqs)[i] == "ERR599043"){
-    colors[i] = "orange"
+    colors[i] = "black"
   }else if (names(mid_freqs)[i] == "ERR594345"){
-    colors[i] = "yellow"
-  }else if (names(mid_freqs)[i] %in% smooth){
-    colors[i] = "green"
+    colors[i] = "red"
   }
 }
 
 #Plot scatter plot
-plot(mid_freqs, col = colors, pch = 19)
+plot(mid_freqs, col = colors, pch = 19, 
+     main = "A_macleodii",
+     ylab = "Within sample polymorphism (0.2 ≤ f ≤ 0.8)",
+     xlab = paste("Ranked Samples, n = ", length(mid_freqs))
+
+)
+
+
+
   
 
 ## SFS Plot per Geographic Variable ##
@@ -74,6 +92,9 @@ geo_data = read.table("TARA_metadata/custom_tara_geo_metadata.txt",
 regions = levels(factor(geo_data[,15]))
 colnames(geo_data)[15] = "Biogeographical_region"
 
+#Open plotting device (pdf)
+pdf("/Users/nikaz/Desktop/snp_freqs.pdf")
+
 for (region in regions){
   #Extract sample accessions which exist in this species and were taken from specific region
   samples = subset(geo_data, Biogeographical_region == region & run_accession %in% colnames(snp_freqs), 
@@ -83,21 +104,28 @@ for (region in regions){
     snps = stack(snp_freqs, select = c(samples$run_accession))
     #Change snp freqs to a vector
     snps = snps$values
+    #Prep snps for plotting
+    trimmed = prep_snps(snps)
+    
+    #Plot histogram
+    hist(trimmed, freq = T, breaks = 30, col="tomato", 
+         main = paste("A_macleodii in\n", region, "\n", length(samples$run_accession), "combined samples"), 
+         xlab = "Allele Frequency", xlim = c(0.45, 1))
     
 
   }
 }
+#Close plotting device
+dev.off()
 
-prep_snps = function(snps){
-  #Filter snp frequencies by these min/max thresholds
-  trimmed = snps[snps < 0.95 & snps > 0.05] 
-  #Fold the plot (any frequencies below 0.5 get subtracted from 1)
-  for (freq in 1:length(trimmed)){
-    if (trimmed[freq] < 0.5){
-      trimmed[freq] = 1 - trimmed[freq]
-    }
-  }
-  return(trimmed)
-}
-
-
+# Combine the two most popolous regions (Indian Monssoon and Mediterranean Sea)
+regions = levels(factor(geo_data[,15]))
+most_prevalent_regions = regions[c(12, 13)]
+samples = subset(geo_data, Biogeographical_region %in% most_prevalent_regions & run_accession %in% colnames(snp_freqs), 
+                 select = run_accession)
+snps = stack(snp_freqs, select = c(samples$run_accession))
+snps = snps$values
+trimmed = prep_snps(snps)
+hist(trimmed, freq = T, breaks = 30, col="orange", 
+     main = paste("A_macleodii in most prevalent regions\n", length(samples$run_accession), "combined samples"), 
+     xlab = "Allele Frequency", xlim = c(0.45, 1))
