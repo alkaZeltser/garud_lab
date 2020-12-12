@@ -1,0 +1,35 @@
+#!/bin/bash
+
+#$ -cwd
+#$ -l h_rt=48:00:00,h_data=4G
+#$ -M $USER@mail
+#$ -m e
+#$ -o /u/scratch/n/nzeltser/midas/genes/job_log
+#$ -j y
+# #$ -t 1-45:1
+
+
+####Load Virtual Environment For Python 2.7 Based MIDAS####
+
+. /u/local/Modules/default/init/modules.sh
+module load python/anaconda2
+
+. /u/local/apps/anaconda2/etc/profile.d/conda.sh
+
+# conda activate midas_env
+conda activate python2_env
+
+#### Export MIDAS Environmental Variables ####
+
+export PYTHONPATH=/u/local/compilers/intel/18.0.4/advisor_2018/pythonapi:/u/home/n/nzeltser/project-ngarud/MIDAS_mod
+export PATH=$PATH:/u/home/n/nzeltser/project-ngarud/MIDAS_mod/scripts
+export MIDAS_DB=/u/project/ngarud/Garud_lab/midas_db_v1.2
+
+
+
+#### MIDAS Command Goes Here ####
+
+## Format:
+## /Path/to/MIDAS/scripts/merge_midas.py snps /path/to/outdir -i /path/to/sample/input/directory -t dir
+
+/u/home/n/nzeltser/project-ngarud/MIDAS_mod/scripts/merge_midas.py genes /u/scratch/n/nzeltser/midas/genes -i /u/scratch/n/nzeltser/midas/samples -t dir

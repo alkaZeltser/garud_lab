@@ -1,0 +1,49 @@
+#!/bin/bash
+
+#$ -cwd
+#$ -l h_rt=48:00:00,h_data=4G
+#$ -M $USER@mail
+#$ -m e
+#$ -o /u/home/n/nzeltser/project-ngarud/TARA/fastq/batch6/output_log
+#$ -j y
+#$ -t 1-5:1
+
+
+####Load Virtual Environment For Python 2.7 Based MIDAS####
+
+. /u/local/Modules/default/init/modules.sh
+module load python/anaconda2
+
+. /u/local/apps/anaconda2/etc/profile.d/conda.sh
+
+# conda activate midas_env
+conda activate python2_env
+
+#### Export MIDAS Environmental Variables ####
+
+export PYTHONPATH=/u/local/compilers/intel/18.0.4/advisor_2018/pythonapi:/u/home/n/nzeltser/project-ngarud/MIDAS_mod
+export PATH=$PATH:/u/home/n/nzeltser/project-ngarud/MIDAS_mod/scripts
+export MIDAS_DB=/u/project/ngarud/Garud_lab/midas_db_v1.2
+
+#### Setup For Job Array To Hoffman2 Cluster Goes Here ####
+
+## Read in accession numbers as task array
+readarray -t accs < /u/project/ngarud/nzeltser/TARA/fastq/batch6/fastq_accessions_6.txt
+
+## Set task ID variable to start at zero (instead of one) so that array may be indexed starting from 0
+(( i=$SGE_TASK_ID - 1 ))
+
+## Print information to help identify this job
+echo "This is sub-job $SGE_TASK_ID"
+echo "This is accession number ${accs[$i]}"
+
+
+#### MIDAS Command Goes Here ####
+
+## Format:
+## /Path/to/MIDAS/Script species /path/to/output -1 /path/to/input/fastq
+
+## Version of command for a job array:
+
+## SNPs ##
+/u/home/n/nzeltser/project-ngarud/MIDAS_mod/scripts/run_midas.py snps /u/scratch/n/nzeltser/midas/samples/${accs[$i]} -1 TARA/fastq/batch6/${accs[$i]}_1.fastq.gz -2 TARA/fastq/batch6/${accs[$i]}_2.fastq.gz

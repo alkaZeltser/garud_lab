@@ -1,0 +1,25 @@
+#!/bin/bash
+
+#$ -cwd
+#$ -l h_rt=22:00:00,h_data=8G
+#$ -M $USER@mail
+#$ -m e
+#$ -o /$SCRATCH/SAR86/output_log
+#$ -j y
+#$ -t 1-7:1
+
+
+
+# . /u/local/Modules/default/init/modules.sh
+
+
+# Read in accession numbers as task array
+readarray -t accs < /$SCRATCH/SAR86/genome_list.txt
+
+# Set task ID variable to start at zero (instead of one) so that array may be indexed starting from 0
+(( i=$SGE_TASK_ID - 1 ))
+
+echo "This is sub-job $SGE_TASK_ID"
+echo "This is accession number ${accs[$i]}"
+
+wget -qN "ftp://ftp.patricbrc.org/genomes/$i/$i.fna"
