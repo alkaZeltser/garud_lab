@@ -1,0 +1,31 @@
+#!/bin/bash
+
+#$ -cwd
+#$ -l h_rt=48:00:00,h_data=8G
+#$ -M $USER@mail
+#$ -m e
+#$ -o /u/project/ngarud/nzeltser/TARA/fastq/output_log/batch6/fastq
+#$ -j y
+#$ -t 1-5:1
+#$ -tc 5
+
+
+. /u/local/Modules/default/init/modules.sh
+module load sra-tools
+
+
+# Read in accession numbers as task array
+readarray -t accs < /u/project/ngarud/nzeltser/TARA/fastq/fastq_accessions_6.txt
+
+# Set task ID variable to start at zero (instead of one) so that array may be indexed starting from 0
+(( i=$SGE_TASK_ID - 1 ))
+
+echo "This is sub-job $SGE_TASK_ID"
+echo "This is accession number ${accs[$i]}"
+
+# prefetch ${accs[$i]} --max-size 100000000
+
+fasterq-dump ${accs[$i]}
+gzip ${accs[$i]}*.fastq
+gzip ${accs[$i]}*.sra
+
