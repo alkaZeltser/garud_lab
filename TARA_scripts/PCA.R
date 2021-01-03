@@ -1,6 +1,8 @@
 
 setwd("/u/scratch/n/nzeltser/midas/snps")
 
+#install.packages("ggfortify")
+
 library(ggplot2)
 library(ggfortify)
 
