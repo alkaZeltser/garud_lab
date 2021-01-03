@@ -1,0 +1,514 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=412;
+	taxlabels
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.10.fna'[&!color=#ff322b]
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.101.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.102.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.103.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.105.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.107.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.108.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.109.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.11.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.110.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.113.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.116.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.118.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.12.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.120.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.122.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.124.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.125.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.127.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.128.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.129.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.13.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.131.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.132.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.135.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.137.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.139.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.141.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.143.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.145.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.149.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.151.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.153.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.154.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.157.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.158.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.159.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.16.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.161.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.164.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.166.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.167.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.168.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.17.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.170.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.171.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.172.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.174.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.175.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.179.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.180.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.181.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.186.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.189.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.191.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.192.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.193.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.194.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.196.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.198.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.20.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.200.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.202.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.203.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.205.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.206.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.207.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.209.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.211.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.212.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.213.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.218.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.219.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.22.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.221.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.222.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.230.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.235.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.237.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.24.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.243.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.244.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.245.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.246.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.249.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.25.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.250.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.251.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.252.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.253.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.254.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.255.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.256.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.258.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.259.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.26.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.261.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.263.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.264.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.266.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.268.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.27.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.270.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.271.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.272.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.273.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.274.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.275.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.276.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.278.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.279.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.281.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.283.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.285.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.286.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.287.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.288.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.289.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.29.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.290.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.291.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.293.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.294.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.295.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.296.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.297.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.298.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.3.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.30.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.300.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.301.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.302.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.303.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.306.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.307.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.31.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.310.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.311.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.312.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.313.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.314.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.316.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.317.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.318.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.319.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.320.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.322.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.323.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.325.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.328.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.33.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.331.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.332.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.333.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.336.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.340.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.342.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.343.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.345.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.346.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.348.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.349.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.35.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.350.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.351.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.354.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.355.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.357.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.358.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.359.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.36.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.360.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.361.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.364.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.365.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.366.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.367.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.368.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.369.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.37.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.371.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.372.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.373.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.374.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.375.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.376.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.377.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.378.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.38.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.381.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.383.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.384.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.385.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.387.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.388.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.389.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.39.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.390.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.391.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.396.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.398.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.399.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.40.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.400.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.401.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.402.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.403.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.404.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.405.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.406.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.407.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.409.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.41.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.410.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.411.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.412.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.413.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.414.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.415.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.418.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.419.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.42.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.420.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.421.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.422.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.424.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.425.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.426.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.427.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.428.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.429.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.43.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.430.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.432.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.434.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.435.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.436.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.437.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.438.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.439.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.44.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.440.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.442.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.443.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.445.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.448.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.449.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.451.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.453.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.454.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.455.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.456.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.457.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.458.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.459.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.462.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.464.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.467.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.468.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.47.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.470.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.471.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.472.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.476.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.477.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.479.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.480.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.481.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.482.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.485.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.488.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.49.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.490.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.492.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.494.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.497.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.498.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.499.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.5.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.50.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.500.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.501.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.503.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.505.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.506.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.507.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.509.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.512.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.513.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.515.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.516.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.517.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.52.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.520.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.521.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.522.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.523.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.525.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.526.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.528.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.529.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.53.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.530.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.531.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.537.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.538.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.539.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.54.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.540.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.541.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.542.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.543.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.544.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.545.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.546.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.548.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.549.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.55.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.551.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.552.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.553.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.555.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.557.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.558.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.559.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.561.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.562.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.563.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.566.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.567.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.568.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.569.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.571.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.572.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.575.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.576.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.577.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.578.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.579.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.58.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.580.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.584.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.587.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.59.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.590.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.593.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.594.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.596.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.597.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.598.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.6.fna'[&!color=#ff322b]
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.60.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.600.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.601.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.602.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.603.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.604.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.605.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.606.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.607.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.609.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.61.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.611.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.613.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.616.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.620.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.621.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.622.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.623.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.624.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.625.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.626.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.628.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.629.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.63.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.630.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.631.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.632.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.634.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.637.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.638.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.639.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.64.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.641.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.642.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.643.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.645.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.646.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.648.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.649.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.65.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.650.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.653.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.654.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.66.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.67.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.7.fna'[&!color=#ff322b]
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.70.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.72.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.73.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.77.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.79.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.81.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.84.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.87.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.88.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.89.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.9.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.91.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.96.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.98.fna'
+	'/u/home/n/nzeltser/project-ngarud/sar86/648174.99.fna'
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (((((('/u/home/n/nzeltser/project-ngarud/sar86/648174.457.fna':0.011864,(('/u/home/n/nzeltser/project-ngarud/sar86/648174.454.fna':0.008081,'/u/home/n/nzeltser/project-ngarud/sar86/648174.273.fna':0.008138):0.002349,'/u/home/n/nzeltser/project-ngarud/sar86/648174.283.fna':0.010513):0.001251):0.052156,('/u/home/n/nzeltser/project-ngarud/sar86/648174.458.fna':0.028316,'/u/home/n/nzeltser/project-ngarud/sar86/648174.438.fna':0.028347):0.035025):0.016118,(('/u/home/n/nzeltser/project-ngarud/sar86/648174.646.fna':0.029055,'/u/home/n/nzeltser/project-ngarud/sar86/648174.492.fna':0.029369):0.046198,(('/u/home/n/nzeltser/project-ngarud/sar86/648174.3.fna':0.055251,('/u/home/n/nzeltser/project-ngarud/sar86/648174.13.fna':0.04788,'/u/home/n/nzeltser/project-ngarud/sar86/648174.11.fna':0.04762):0.007852):0.015291,('/u/home/n/nzeltser/project-ngarud/sar86/648174.17.fna':0.056043,'/u/home/n/nzeltser/project-ngarud/sar86/648174.16.fna':0.055424):0.015945):0.004007):0.004117):0.002455,(('/u/home/n/nzeltser/project-ngarud/sar86/648174.9.fna':0.018735,(('/u/home/n/nzeltser/project-ngarud/sar86/648174.7.fna':0.010597,'/u/home/n/nzeltser/project-ngarud/sar86/648174.6.fna':0.010579):0.00364,'/u/home/n/nzeltser/project-ngarud/sar86/648174.10.fna':0.01425):0.004704):0.061226,'/u/home/n/nzeltser/project-ngarud/sar86/648174.12.fna':0.080018):0.001928):0.017078,(((('/u/home/n/nzeltser/project-ngarud/sar86/648174.72.fna':0.030537,'/u/home/n/nzeltser/project-ngarud/sar86/648174.33.fna':0.030693):0.00472,'/u/home/n/nzeltser/project-ngarud/sar86/648174.621.fna':0.035502):0.011525,('/u/home/n/nzeltser/project-ngarud/sar86/648174.607.fna':7.56E-4,'/u/home/n/nzeltser/project-ngarud/sar86/648174.596.fna':7.36E-4):0.046142):0.025261,((((('/u/home/n/nzeltser/project-ngarud/sar86/648174.472.fna':0.010246,'/u/home/n/nzeltser/project-ngarud/sar86/648174.354.fna':0.010279):0.009476,'/u/home/n/nzeltser/project-ngarud/sar86/648174.168.fna':0.019678):0.009266,'/u/home/n/nzeltser/project-ngarud/sar86/648174.35.fna':0.029103):0.006245,'/u/home/n/nzeltser/project-ngarud/sar86/648174.193.fna':0.035204):0.002045,'/u/home/n/nzeltser/project-ngarud/sar86/648174.122.fna':0.037308):0.035078):0.026766):9.28E-4,(((((((('/u/home/n/nzeltser/project-ngarud/sar86/648174.99.fna':0.006937,'/u/home/n/nzeltser/project-ngarud/sar86/648174.102.fna':0.006983):0.02373,('/u/home/n/nzeltser/project-ngarud/sar86/648174.81.fna':0.026907,((((('/u/home/n/nzeltser/project-ngarud/sar86/648174.600.fna':9.36E-4,'/u/home/n/nzeltser/project-ngarud/sar86/648174.59.fna':9.85E-4):2.46E-4,'/u/home/n/nzeltser/project-ngarud/sar86/648174.537.fna':0.001259):0.003668,'/u/home/n/nzeltser/project-ngarud/sar86/648174.203.fna':0.004966):0.003409,('/u/home/n/nzeltser/project-ngarud/sar86/648174.548.fna':0.006677,'/u/home/n/nzeltser/project-ngarud/sar86/648174.455.fna':0.006685):0.001648):7.78E-4,'/u/home/n/nzeltser/project-ngarud/sar86/648174.557.fna':0.009055):0.017771):0.003809):0.030301,((('/u/home/n/nzeltser/project-ngarud/sar86/648174.648.fna':0.001002,'/u/home/n/nzeltser/project-ngarud/sar86/648174.468.fna':0.001055):0.00808,'/u/home/n/nzeltser/project-ngarud/sar86/648174.359.fna':0.009109):0.008512,'/u/home/n/nzeltser/project-ngarud/sar86/648174.200.fna':0.017638):0.043576):0.029017,'/u/home/n/nzeltser/project-ngarud/sar86/648174.91.fna':0.089888):0.007133,'/u/home/n/nzeltser/project-ngarud/sar86/648174.73.fna':0.097156):0.002843,(((('/u/home/n/nzeltser/project-ngarud/sar86/648174.88.fna':0.011846,'/u/home/n/nzeltser/project-ngarud/sar86/648174.301.fna':0.011836):0.029235,(('/u/home/n/nzeltser/project-ngarud/sar86/648174.77.fna':4.57E-4,'/u/home/n/nzeltser/project-ngarud/sar86/648174.181.fna':5.51E-4):0.010703,'/u/home/n/nzeltser/project-ngarud/sar86/648174.157.fna':0.011202):0.029821):0.05725,((('/u/home/n/nzeltser/project-ngarud/sar86/648174.626.fna':0.008374,('/u/home/n/nzeltser/project-ngarud/sar86/648174.625.fna':0.007233,('/u/home/n/nzeltser/project-ngarud/sar86/648174.579.fna':0.00621,(('/u/home/n/nzeltser/project-ngarud/sar86/648174.526.fna':0.003676,('/u/home/n/nzeltser/project-ngarud/sar86/648174.464.fna':0.002831,'/u/home/n/nzeltser/project-ngarud/sar86/648174.391.fna':0.002797):8.43E-4):0.001264,'/u/home/n/nzeltser/project-ngarud/sar86/648174.349.fna':0.004939):0.001316):0.00101):0.001108):3.28E-4,'/u/home/n/nzeltser/project-ngarud/sar86/648174.364.fna':0.008657):0.043584,'/u/home/n/nzeltser/project-ngarud/sar86/648174.120.fna':0.052308):0.046016):0.001695,((((((('/u/home/n/nzeltser/project-ngarud/sar86/648174.624.fna':5.11E-4,('/u/home/n/nzeltser/project-ngarud/sar86/648174.440.fna':5.55E-4,'/u/home/n/nzeltser/project-ngarud/sar86/648174.245.fna':4.74E-4):5.6E-5):2.77E-4,'/u/home/n/nzeltser/project-ngarud/sar86/648174.476.fna':8.42E-4):0.006942,((((('/u/home/n/nzeltser/project-ngarud/sar86/648174.597.fna':3.29E-4,'/u/home/n/nzeltser/project-ngarud/sar86/648174.174.fna':3.69E-4):3.98E-4,('/u/home/n/nzeltser/project-ngarud/sar86/648174.528.fna':6.77E-4,('/u/home/n/nzeltser/project-ngarud/sar86/648174.462.fna':5.3E-4,'/u/home/n/nzeltser/project-ngarud/sar86/648174.158.fna':5.63E-4):1.17E-4):1.54E-4):4.65E-4,'/u/home/n/nzeltser/project-ngarud/sar86/648174.237.fna':0.001161):3.26E-4,'/u/home/n/nzeltser/project-ngarud/sar86/648174.205.fna':0.001611):0.004953,'/u/home/n/nzeltser/project-ngarud/sar86/648174.186.fna':0.006441):0.001253):0.002494,('/u/home/n/nzeltser/project-ngarud/sar86/648174.515.fna':0.009839,('/u/home/n/nzeltser/project-ngarud/sar86/648174.405.fna':0.0088,'/u/home/n/nzeltser/project-ngarud/sar86/648174.310.fna':0.008785):0.001142):3.01E-4):0.002917,(('/u/home/n/nzeltser/project-ngarud/sar86/648174.552.fna':3.95E-4,'/u/home/n/nzeltser/project-ngarud/sar86/648174.311.fna':4.67E-4):0.009569,'/u/home/n/nzeltser/project-ngarud/sar86/648174.55.fna':0.009993):0.003106):0.001433,('/u/home/n/nzeltser/project-ngarud/sar86/648174.542.fna':0.013155,('/u/home/n/nzeltser/project-ngarud/sar86/648174.325.fna':9.83E-4,'/u/home/n/nzeltser/project-ngarud/sar86/648174.294.fna':9.47E-4):0.012159):0.001428):0.016294,((('/u/home/n/nzeltser/project-ngarud/sar86/648174.529.fna':0.010343,(((('/u/home/n/nzeltser/project-ngarud/sar86/648174.471.fna':0.003815,'/u/home/n/nzeltser/project-ngarud/sar86/648174.419.fna':0.003724):0.002868,'/u/home/n/nzeltser/project-ngarud/sar86/648174.249.fna':0.006705):0.001131,'/u/home/n/nzeltser/project-ngarud/sar86/648174.318.fna':0.007954):0.001533,('/u/home/n/nzeltser/project-ngarud/sar86/648174.467.fna':0.00767,('/u/home/n/nzeltser/project-ngarud/sar86/648174.414.fna':2.76E-4,'/u/home/n/nzeltser/project-ngarud/sar86/648174.361.fna':4.41E-4):0.007091):0.001927):8.81E-4):0.011058,(('/u/home/n/nzeltser/project-ngarud/sar86/648174.509.fna':0.016527,'/u/home/n/nzeltser/project-ngarud/sar86/648174.125.fna':0.016507):0.003151,'/u/home/n/nzeltser/project-ngarud/sar86/648174.128.fna':0.019721):0.001664):0.00142,'/u/home/n/nzeltser/project-ngarud/sar86/648174.108.fna':0.022795):0.008071):0.069141):5.0E-6):0.0,(((((((((((('/u/home/n/nzeltser/project-ngarud/sar86/648174.98.fna':0.008856,'/u/home/n/nzeltser/project-ngarud/sar86/648174.70.fna':0.008469):0.002354,'/u/home/n/nzeltser/project-ngarud/sar86/648174.109.fna':0.010915):0.002882,'/u/home/n/nzeltser/project-ngarud/sar86/648174.558.fna':0.014432):0.002383,'/u/home/n/nzeltser/project-ngarud/sar86/648174.645.fna':0.01634):0.004796,(('/u/home/n/nzeltser/project-ngarud/sar86/648174.654.fna':0.006097,'/u/home/n/nzeltser/project-ngarud/sar86/648174.383.fna':0.006162):0.013297,('/u/home/n/nzeltser/project-ngarud/sar86/648174.317.fna':0.018573,'/u/home/n/nzeltser/project-ngarud/sar86/648174.196.fna':0.018184):0.001346):0.001729):0.001572,'/u/home/n/nzeltser/project-ngarud/sar86/648174.459.fna':0.022768):9.26E-4,((('/u/home/n/nzeltser/project-ngarud/sar86/648174.590.fna':0.011738,'/u/home/n/nzeltser/project-ngarud/sar86/648174.336.fna':0.011392):0.002093,'/u/home/n/nzeltser/project-ngarud/sar86/648174.453.fna':0.013468):0.00306,(('/u/home/n/nzeltser/project-ngarud/sar86/648174.566.fna':6.71E-4,'/u/home/n/nzeltser/project-ngarud/sar86/648174.381.fna':1.73E-4):0.011908,('/u/home/n/nzeltser/project-ngarud/sar86/648174.374.fna':0.00877,('/u/home/n/nzeltser/project-ngarud/sar86/648174.314.fna':0.001163,'/u/home/n/nzeltser/project-ngarud/sar86/648174.244.fna':0.001017):0.008836):0.002436):0.004423):0.007517):0.006377,'/u/home/n/nzeltser/project-ngarud/sar86/648174.365.fna':0.030327):5.6E-4,((((('/u/home/n/nzeltser/project-ngarud/sar86/648174.96.fna':0.010913,(('/u/home/n/nzeltser/project-ngarud/sar86/648174.604.fna':0.001098,'/u/home/n/nzeltser/project-ngarud/sar86/648174.218.fna':0.001498):0.008491,'/u/home/n/nzeltser/project-ngarud/sar86/648174.323.fna':0.01015):7.85E-4):5.88E-4,('/u/home/n/nzeltser/project-ngarud/sar86/648174.58.fna':6.53E-4,'/u/home/n/nzeltser/project-ngarud/sar86/648174.531.fna':5.56E-4):0.010769):0.001048,'/u/home/n/nzeltser/project-ngarud/sar86/648174.206.fna':0.012382):7.59E-4,'/u/home/n/nzeltser/project-ngarud/sar86/648174.371.fna':0.012901):0.00825,(('/u/home/n/nzeltser/project-ngarud/sar86/648174.445.fna':0.003666,'/u/home/n/nzeltser/project-ngarud/sar86/648174.319.fna':0.003827):0.001001,'/u/home/n/nzeltser/project-ngarud/sar86/648174.332.fna':0.004663):0.017059):0.009283):0.00346,((((((('/u/home/n/nzeltser/project-ngarud/sar86/648174.546.fna':0.012586,('/u/home/n/nzeltser/project-ngarud/sar86/648174.384.fna':0.001,'/u/home/n/nzeltser/project-ngarud/sar86/648174.320.fna':0.001638):0.011855):0.002435,'/u/home/n/nzeltser/project-ngarud/sar86/648174.481.fna':0.016276):0.002934,'/u/home/n/nzeltser/project-ngarud/sar86/648174.296.fna':0.018715):0.002122,('/u/home/n/nzeltser/project-ngarud/sar86/648174.470.fna':0.018304,'/u/home/n/nzeltser/project-ngarud/sar86/648174.424.fna':0.017904):0.002893):0.001189,'/u/home/n/nzeltser/project-ngarud/sar86/648174.401.fna':0.02236):0.00169,'/u/home/n/nzeltser/project-ngarud/sar86/648174.322.fna':0.023779):0.00155,'/u/home/n/nzeltser/project-ngarud/sar86/648174.132.fna':0.025292):0.00897):0.025192,'/u/home/n/nzeltser/project-ngarud/sar86/648174.613.fna':0.059697):0.005444,(('/u/home/n/nzeltser/project-ngarud/sar86/648174.500.fna':0.022349,'/u/home/n/nzeltser/project-ngarud/sar86/648174.127.fna':0.021665):0.018336,'/u/home/n/nzeltser/project-ngarud/sar86/648174.105.fna':0.040417):0.024618):0.035011):0.0,((((('/u/home/n/nzeltser/project-ngarud/sar86/648174.89.fna':0.034291,('/u/home/n/nzeltser/project-ngarud/sar86/648174.54.fna':0.019489,'/u/home/n/nzeltser/project-ngarud/sar86/648174.505.fna':0.019394):0.014797):0.023464,((((((('/u/home/n/nzeltser/project-ngarud/sar86/648174.643.fna':1.22E-4,'/u/home/n/nzeltser/project-ngarud/sar86/648174.603.fna':1.94E-4):5.52E-4,'/u/home/n/nzeltser/project-ngarud/sar86/648174.145.fna':6.57E-4):0.006947,('/u/home/n/nzeltser/project-ngarud/sar86/648174.559.fna':0.004517,'/u/home/n/nzeltser/project-ngarud/sar86/648174.252.fna':0.004407):0.003214):0.003492,'/u/home/n/nzeltser/project-ngarud/sar86/648174.295.fna':0.011253):0.001472,'/u/home/n/nzeltser/project-ngarud/sar86/648174.541.fna':0.012719):0.005222,('/u/home/n/nzeltser/project-ngarud/sar86/648174.569.fna':0.014184,'/u/home/n/nzeltser/project-ngarud/sar86/648174.477.fna':0.014217):0.003456):0.017075,((((((('/u/home/n/nzeltser/project-ngarud/sar86/648174.629.fna':0.005941,'/u/home/n/nzeltser/project-ngarud/sar86/648174.53.fna':0.005876):0.004132,'/u/home/n/nzeltser/project-ngarud/sar86/648174.49.fna':0.009775):0.009664,('/u/home/n/nzeltser/project-ngarud/sar86/648174.422.fna':0.013967,'/u/home/n/nzeltser/project-ngarud/sar86/648174.258.fna':0.013728):0.005829):8.06E-4,'/u/home/n/nzeltser/project-ngarud/sar86/648174.451.fna':0.020488):0.001008,'/u/home/n/nzeltser/project-ngarud/sar86/648174.439.fna':0.021497):0.009627,('/u/home/n/nzeltser/project-ngarud/sar86/648174.387.fna':5.62E-4,'/u/home/n/nzeltser/project-ngarud/sar86/648174.194.fna':5.87E-4):0.030666):0.001543,('/u/home/n/nzeltser/project-ngarud/sar86/648174.443.fna':0.027659,'/u/home/n/nzeltser/project-ngarud/sar86/648174.270.fna':0.027492):0.005096):0.002117):0.022862):0.004457,'/u/home/n/nzeltser/project-ngarud/sar86/648174.172.fna':0.062189):0.023645,'/u/home/n/nzeltser/project-ngarud/sar86/648174.611.fna':0.085809):0.014191,(((((((((('/u/home/n/nzeltser/project-ngarud/sar86/648174.87.fna':0.002167,'/u/home/n/nzeltser/project-ngarud/sar86/648174.285.fna':0.0021):0.014456,((((('/u/home/n/nzeltser/project-ngarud/sar86/648174.84.fna':0.008862,('/u/home/n/nzeltser/project-ngarud/sar86/648174.521.fna':3.89E-4,'/u/home/n/nzeltser/project-ngarud/sar86/648174.149.fna':4.48E-4):0.008493):8.98E-4,'/u/home/n/nzeltser/project-ngarud/sar86/648174.609.fna':0.009792):9.61E-4,('/u/home/n/nzeltser/project-ngarud/sar86/648174.166.fna':2.7E-4,'/u/home/n/nzeltser/project-ngarud/sar86/648174.135.fna':2.69E-4):0.010496):2.85E-4,'/u/home/n/nzeltser/project-ngarud/sar86/648174.137.fna':0.011036):0.003014,('/u/home/n/nzeltser/project-ngarud/sar86/648174.543.fna':0.013338,'/u/home/n/nzeltser/project-ngarud/sar86/648174.436.fna':0.013348):7.18E-4):0.002481):0.001868,'/u/home/n/nzeltser/project-ngarud/sar86/648174.161.fna':0.018475):0.001882,'/u/home/n/nzeltser/project-ngarud/sar86/648174.153.fna':0.020362):0.001168,'/u/home/n/nzeltser/project-ngarud/sar86/648174.366.fna':0.02155):0.002418,'/u/home/n/nzeltser/project-ngarud/sar86/648174.388.fna':0.023855):0.003129,'/u/home/n/nzeltser/project-ngarud/sar86/648174.623.fna':0.027053):0.072908,((((((((((((((((((('/u/home/n/nzeltser/project-ngarud/sar86/648174.66.fna':0.002775,'/u/home/n/nzeltser/project-ngarud/sar86/648174.563.fna':0.002825):0.004023,'/u/home/n/nzeltser/project-ngarud/sar86/648174.276.fna':0.006697):6.52E-4,(('/u/home/n/nzeltser/project-ngarud/sar86/648174.561.fna':1.65E-4,'/u/home/n/nzeltser/project-ngarud/sar86/648174.538.fna':3.75E-4):6.05E-4,'/u/home/n/nzeltser/project-ngarud/sar86/648174.421.fna':8.42E-4):0.006714):0.008606,'/u/home/n/nzeltser/project-ngarud/sar86/648174.520.fna':0.015881):7.73E-4,'/u/home/n/nzeltser/project-ngarud/sar86/648174.167.fna':0.016716):0.002585,'/u/home/n/nzeltser/project-ngarud/sar86/648174.307.fna':0.019352):0.003573,((('/u/home/n/nzeltser/project-ngarud/sar86/648174.594.fna':0.006681,'/u/home/n/nzeltser/project-ngarud/sar86/648174.235.fna':0.006738):0.00694,'/u/home/n/nzeltser/project-ngarud/sar86/648174.555.fna':0.013399):0.001109,('/u/home/n/nzeltser/project-ngarud/sar86/648174.575.fna':6.2E-4,'/u/home/n/nzeltser/project-ngarud/sar86/648174.198.fna':9.21E-4):0.013964):0.008209):0.00282,('/u/home/n/nzeltser/project-ngarud/sar86/648174.562.fna':0.017823,('/u/home/n/nzeltser/project-ngarud/sar86/648174.479.fna':0.004368,'/u/home/n/nzeltser/project-ngarud/sar86/648174.415.fna':0.004416):0.013532):0.008064):0.001205,('/u/home/n/nzeltser/project-ngarud/sar86/648174.545.fna':0.02216,('/u/home/n/nzeltser/project-ngarud/sar86/648174.192.fna':5.51E-4,'/u/home/n/nzeltser/project-ngarud/sar86/648174.175.fna':0.0):0.021954):0.005025):9.37E-4,'/u/home/n/nzeltser/project-ngarud/sar86/648174.230.fna':0.028202):0.001289,(('/u/home/n/nzeltser/project-ngarud/sar86/648174.584.fna':0.00914,('/u/home/n/nzeltser/project-ngarud/sar86/648174.517.fna':0.003372,'/u/home/n/nzeltser/project-ngarud/sar86/648174.426.fna':0.003397):0.005901):0.004811,'/u/home/n/nzeltser/project-ngarud/sar86/648174.375.fna':0.014033):0.015242):0.003721,'/u/home/n/nzeltser/project-ngarud/sar86/648174.497.fna':0.033026):0.002566,'/u/home/n/nzeltser/project-ngarud/sar86/648174.412.fna':0.03558):0.010305,(('/u/home/n/nzeltser/project-ngarud/sar86/648174.567.fna':0.013425,'/u/home/n/nzeltser/project-ngarud/sar86/648174.429.fna':0.013158):7.24E-4,'/u/home/n/nzeltser/project-ngarud/sar86/648174.303.fna':0.013935):0.031999):0.035501,(('/u/home/n/nzeltser/project-ngarud/sar86/648174.639.fna':0.01571,'/u/home/n/nzeltser/project-ngarud/sar86/648174.631.fna':0.016055):0.0168,'/u/home/n/nzeltser/project-ngarud/sar86/648174.638.fna':0.03273):0.049237):0.013805,(('/u/home/n/nzeltser/project-ngarud/sar86/648174.41.fna':0.016798,'/u/home/n/nzeltser/project-ngarud/sar86/648174.407.fna':0.016045):0.02221,'/u/home/n/nzeltser/project-ngarud/sar86/648174.101.fna':0.038676):0.056921):8.22E-4,('/u/home/n/nzeltser/project-ngarud/sar86/648174.406.fna':0.006026,'/u/home/n/nzeltser/project-ngarud/sar86/648174.389.fna':0.006272):0.090136):0.003184,(((('/u/home/n/nzeltser/project-ngarud/sar86/648174.43.fna':0.010878,'/u/home/n/nzeltser/project-ngarud/sar86/648174.328.fna':0.010951):0.003129,'/u/home/n/nzeltser/project-ngarud/sar86/648174.37.fna':0.014216):0.011177,('/u/home/n/nzeltser/project-ngarud/sar86/648174.297.fna':0.022669,'/u/home/n/nzeltser/project-ngarud/sar86/648174.139.fna':0.022715):0.002472):0.069149,'/u/home/n/nzeltser/project-ngarud/sar86/648174.263.fna':0.094443):0.005102):3.41E-4,(('/u/home/n/nzeltser/project-ngarud/sar86/648174.61.fna':0.005428,'/u/home/n/nzeltser/project-ngarud/sar86/648174.403.fna':0.005403):0.002308,'/u/home/n/nzeltser/project-ngarud/sar86/648174.490.fna':0.007735):0.09211):1.13E-4):5.1E-5,(('/u/home/n/nzeltser/project-ngarud/sar86/648174.398.fna':0.024795,('/u/home/n/nzeltser/project-ngarud/sar86/648174.385.fna':0.004893,'/u/home/n/nzeltser/project-ngarud/sar86/648174.243.fna':0.004902):0.019898):0.006662,'/u/home/n/nzeltser/project-ngarud/sar86/648174.312.fna':0.031457):0.068543):0.0,(((((('/u/home/n/nzeltser/project-ngarud/sar86/648174.79.fna':8.61E-4,'/u/home/n/nzeltser/project-ngarud/sar86/648174.598.fna':8.66E-4):2.29E-4,'/u/home/n/nzeltser/project-ngarud/sar86/648174.602.fna':0.001082):0.007166,'/u/home/n/nzeltser/project-ngarud/sar86/648174.488.fna':0.008261):0.001027,'/u/home/n/nzeltser/project-ngarud/sar86/648174.409.fna':0.009277):0.001539,'/u/home/n/nzeltser/project-ngarud/sar86/648174.418.fna':0.010821):0.089179,((((('/u/home/n/nzeltser/project-ngarud/sar86/648174.67.fna':0.024697,('/u/home/n/nzeltser/project-ngarud/sar86/648174.516.fna':0.02365,'/u/home/n/nzeltser/project-ngarud/sar86/648174.507.fna':0.023603):9.04E-4):0.022402,((((('/u/home/n/nzeltser/project-ngarud/sar86/648174.63.fna':0.001261,'/u/home/n/nzeltser/project-ngarud/sar86/648174.410.fna':0.001207):0.021666,'/u/home/n/nzeltser/project-ngarud/sar86/648174.164.fna':0.022935):7.58E-4,(('/u/home/n/nzeltser/project-ngarud/sar86/648174.60.fna':0.001401,'/u/home/n/nzeltser/project-ngarud/sar86/648174.107.fna':0.001351):0.018683,'/u/home/n/nzeltser/project-ngarud/sar86/648174.587.fna':0.020044):0.00362):0.001645,('/u/home/n/nzeltser/project-ngarud/sar86/648174.576.fna':0.022073,'/u/home/n/nzeltser/project-ngarud/sar86/648174.525.fna':0.021967):0.003303):0.016238,((('/u/home/n/nzeltser/project-ngarud/sar86/648174.506.fna':0.025956,'/u/home/n/nzeltser/project-ngarud/sar86/648174.346.fna':0.025922):0.004129,('/u/home/n/nzeltser/project-ngarud/sar86/648174.355.fna':0.002303,'/u/home/n/nzeltser/project-ngarud/sar86/648174.207.fna':0.002247):0.027756):0.0014,'/u/home/n/nzeltser/project-ngarud/sar86/648174.503.fna':0.031506):0.009944):0.005504):0.052846,(('/u/home/n/nzeltser/project-ngarud/sar86/648174.420.fna':0.006023,'/u/home/n/nzeltser/project-ngarud/sar86/648174.191.fna':0.006039):0.012121,'/u/home/n/nzeltser/project-ngarud/sar86/648174.390.fna':0.018139):0.081686):1.64E-4,(((('/u/home/n/nzeltser/project-ngarud/sar86/648174.482.fna':0.023175,('/u/home/n/nzeltser/project-ngarud/sar86/648174.430.fna':0.020139,'/u/home/n/nzeltser/project-ngarud/sar86/648174.333.fna':0.020193):0.002967):0.002035,(('/u/home/n/nzeltser/project-ngarud/sar86/648174.442.fna':0.017761,(('/u/home/n/nzeltser/project-ngarud/sar86/648174.289.fna':0.014761,'/u/home/n/nzeltser/project-ngarud/sar86/648174.287.fna':0.014737):0.001249,'/u/home/n/nzeltser/project-ngarud/sar86/648174.256.fna':0.016033):0.001851):0.00501,'/u/home/n/nzeltser/project-ngarud/sar86/648174.316.fna':0.022841):0.002358):0.068483,('/u/home/n/nzeltser/project-ngarud/sar86/648174.449.fna':0.001185,'/u/home/n/nzeltser/project-ngarud/sar86/648174.434.fna':0.001134):0.092526):0.006256,('/u/home/n/nzeltser/project-ngarud/sar86/648174.44.fna':0.095078,('/u/home/n/nzeltser/project-ngarud/sar86/648174.432.fna':0.011843,'/u/home/n/nzeltser/project-ngarud/sar86/648174.343.fna':0.011876):0.083213):0.00486):6.1E-5):4.0E-6,(((((((((('/u/home/n/nzeltser/project-ngarud/sar86/648174.653.fna':0.009367,'/u/home/n/nzeltser/project-ngarud/sar86/648174.298.fna':0.009369):0.028163,'/u/home/n/nzeltser/project-ngarud/sar86/648174.290.fna':0.037712):0.020656,(('/u/home/n/nzeltser/project-ngarud/sar86/648174.634.fna':0.044119,'/u/home/n/nzeltser/project-ngarud/sar86/648174.616.fna':0.043493):0.004799,((('/u/home/n/nzeltser/project-ngarud/sar86/648174.544.fna':0.007856,'/u/home/n/nzeltser/project-ngarud/sar86/648174.189.fna':0.008057):0.019102,('/u/home/n/nzeltser/project-ngarud/sar86/648174.350.fna':0.001983,'/u/home/n/nzeltser/project-ngarud/sar86/648174.342.fna':0.001883):0.024953):0.005189,'/u/home/n/nzeltser/project-ngarud/sar86/648174.411.fna':0.032098):0.016186):0.009823):7.96E-4,'/u/home/n/nzeltser/project-ngarud/sar86/648174.27.fna':0.05919):0.001172,('/u/home/n/nzeltser/project-ngarud/sar86/648174.642.fna':0.057006,'/u/home/n/nzeltser/project-ngarud/sar86/648174.456.fna':0.05685):0.003468):0.010224,('/u/home/n/nzeltser/project-ngarud/sar86/648174.622.fna':0.015593,'/u/home/n/nzeltser/project-ngarud/sar86/648174.437.fna':0.015601):0.055203):0.002901,'/u/home/n/nzeltser/project-ngarud/sar86/648174.25.fna':0.073544):0.019058,(('/u/home/n/nzeltser/project-ngarud/sar86/648174.513.fna':0.013771,'/u/home/n/nzeltser/project-ngarud/sar86/648174.36.fna':0.013873):0.004246,(('/u/home/n/nzeltser/project-ngarud/sar86/648174.501.fna':0.012079,'/u/home/n/nzeltser/project-ngarud/sar86/648174.494.fna':0.012248):0.00424,'/u/home/n/nzeltser/project-ngarud/sar86/648174.306.fna':0.016198):0.001882):0.074413):0.007402,('/u/home/n/nzeltser/project-ngarud/sar86/648174.39.fna':0.008355,'/u/home/n/nzeltser/project-ngarud/sar86/648174.26.fna':0.008362):0.091607):3.5E-5,(((((('/u/home/n/nzeltser/project-ngarud/sar86/648174.650.fna':0.025859,('/u/home/n/nzeltser/project-ngarud/sar86/648174.578.fna':0.011253,'/u/home/n/nzeltser/project-ngarud/sar86/648174.279.fna':0.011238):0.01472):0.003163,'/u/home/n/nzeltser/project-ngarud/sar86/648174.266.fna':0.029125):0.003002,(('/u/home/n/nzeltser/project-ngarud/sar86/648174.649.fna':0.001082,'/u/home/n/nzeltser/project-ngarud/sar86/648174.428.fna':0.001038):0.027458,'/u/home/n/nzeltser/project-ngarud/sar86/648174.272.fna':0.028695):0.003556):0.02169,'/u/home/n/nzeltser/project-ngarud/sar86/648174.278.fna':0.05402):0.010312,('/u/home/n/nzeltser/project-ngarud/sar86/648174.522.fna':0.040911,'/u/home/n/nzeltser/project-ngarud/sar86/648174.427.fna':0.040959):0.023264):0.035801,((((('/u/home/n/nzeltser/project-ngarud/sar86/648174.65.fna':0.00115,'/u/home/n/nzeltser/project-ngarud/sar86/648174.40.fna':0.001163):0.060884,'/u/home/n/nzeltser/project-ngarud/sar86/648174.42.fna':0.062026):0.036415,('/u/home/n/nzeltser/project-ngarud/sar86/648174.64.fna':0.093476,('/u/home/n/nzeltser/project-ngarud/sar86/648174.286.fna':0.091924,'/u/home/n/nzeltser/project-ngarud/sar86/648174.275.fna':0.091943):0.001724):0.004836):0.001342,(('/u/home/n/nzeltser/project-ngarud/sar86/648174.47.fna':0.018267,'/u/home/n/nzeltser/project-ngarud/sar86/648174.348.fna':0.01826):0.022911,'/u/home/n/nzeltser/project-ngarud/sar86/648174.373.fna':0.041141):0.05862):2.2E-4,(('/u/home/n/nzeltser/project-ngarud/sar86/648174.641.fna':0.053574,'/u/home/n/nzeltser/project-ngarud/sar86/648174.620.fna':0.053574):0.046426,('/u/home/n/nzeltser/project-ngarud/sar86/648174.637.fna':0.1,(((('/u/home/n/nzeltser/project-ngarud/sar86/648174.632.fna':0.030748,(('/u/home/n/nzeltser/project-ngarud/sar86/648174.530.fna':0.003007,'/u/home/n/nzeltser/project-ngarud/sar86/648174.202.fna':0.003129):0.017232,'/u/home/n/nzeltser/project-ngarud/sar86/648174.485.fna':0.020268):0.010513):0.005249,(('/u/home/n/nzeltser/project-ngarud/sar86/648174.572.fna':0.003499,'/u/home/n/nzeltser/project-ngarud/sar86/648174.213.fna':0.003491):0.020013,'/u/home/n/nzeltser/project-ngarud/sar86/648174.448.fna':0.023512):0.012652):0.004644,'/u/home/n/nzeltser/project-ngarud/sar86/648174.606.fna':0.040728):0.059272,('/u/home/n/nzeltser/project-ngarud/sar86/648174.630.fna':0.1,(((((('/u/home/n/nzeltser/project-ngarud/sar86/648174.628.fna':4.35E-4,'/u/home/n/nzeltser/project-ngarud/sar86/648174.52.fna':4.46E-4):0.003565,'/u/home/n/nzeltser/project-ngarud/sar86/648174.171.fna':0.004023):0.002479,'/u/home/n/nzeltser/project-ngarud/sar86/648174.331.fna':0.006567):5.26E-4,('/u/home/n/nzeltser/project-ngarud/sar86/648174.404.fna':2.83E-4,'/u/home/n/nzeltser/project-ngarud/sar86/648174.131.fna':2.74E-4):0.006726):0.009266,('/u/home/n/nzeltser/project-ngarud/sar86/648174.549.fna':0.011444,('/u/home/n/nzeltser/project-ngarud/sar86/648174.253.fna':0.010198,'/u/home/n/nzeltser/project-ngarud/sar86/648174.179.fna':0.010212):0.001253):0.004848):0.083699,((((('/u/home/n/nzeltser/project-ngarud/sar86/648174.605.fna':0.008319,('/u/home/n/nzeltser/project-ngarud/sar86/648174.376.fna':0.001631,'/u/home/n/nzeltser/project-ngarud/sar86/648174.116.fna':0.001673):0.006681):0.00721,('/u/home/n/nzeltser/project-ngarud/sar86/648174.553.fna':0.009196,'/u/home/n/nzeltser/project-ngarud/sar86/648174.103.fna':0.009204):0.006319):0.00394,'/u/home/n/nzeltser/project-ngarud/sar86/648174.402.fna':0.019371):0.053392,(((('/u/home/n/nzeltser/project-ngarud/sar86/648174.601.fna':0.008211,('/u/home/n/nzeltser/project-ngarud/sar86/648174.378.fna':0.007827,('/u/home/n/nzeltser/project-ngarud/sar86/648174.291.fna':0.006899,'/u/home/n/nzeltser/project-ngarud/sar86/648174.222.fna':0.006975):8.92E-4):3.66E-4):0.007467,'/u/home/n/nzeltser/project-ngarud/sar86/648174.580.fna':0.015595):0.004274,'/u/home/n/nzeltser/project-ngarud/sar86/648174.498.fna':0.01991):0.046963,'/u/home/n/nzeltser/project-ngarud/sar86/648174.159.fna':0.067209):0.005804):0.027172,((((('/u/home/n/nzeltser/project-ngarud/sar86/648174.593.fna':0.015992,'/u/home/n/nzeltser/project-ngarud/sar86/648174.313.fna':0.015956):0.009085,'/u/home/n/nzeltser/project-ngarud/sar86/648174.124.fna':0.025074):0.002008,(((((('/u/home/n/nzeltser/project-ngarud/sar86/648174.568.fna':0.001009,'/u/home/n/nzeltser/project-ngarud/sar86/648174.50.fna':9.96E-4):4.4E-5,'/u/home/n/nzeltser/project-ngarud/sar86/648174.302.fna':0.001001):5.1E-4,'/u/home/n/nzeltser/project-ngarud/sar86/648174.251.fna':0.001533):0.008651,'/u/home/n/nzeltser/project-ngarud/sar86/648174.499.fna':0.010241):0.013583,(((('/u/home/n/nzeltser/project-ngarud/sar86/648174.413.fna':9.67E-4,'/u/home/n/nzeltser/project-ngarud/sar86/648174.396.fna':0.001079):0.010284,('/u/home/n/nzeltser/project-ngarud/sar86/648174.377.fna':0.009425,'/u/home/n/nzeltser/project-ngarud/sar86/648174.367.fna':0.009384):0.001912):0.002,(('/u/home/n/nzeltser/project-ngarud/sar86/648174.372.fna':5.36E-4,'/u/home/n/nzeltser/project-ngarud/sar86/648174.246.fna':4.98E-4):0.003248,'/u/home/n/nzeltser/project-ngarud/sar86/648174.358.fna':0.003776):0.009573):0.006937,'/u/home/n/nzeltser/project-ngarud/sar86/648174.212.fna':0.020334):0.003452):6.22E-4,'/u/home/n/nzeltser/project-ngarud/sar86/648174.170.fna':0.02441):0.002706):0.01611,'/u/home/n/nzeltser/project-ngarud/sar86/648174.110.fna':0.043195):0.056805,(((((('/u/home/n/nzeltser/project-ngarud/sar86/648174.577.fna':9.1E-5,'/u/home/n/nzeltser/project-ngarud/sar86/648174.340.fna':9.0E-5):2.57E-4,'/u/home/n/nzeltser/project-ngarud/sar86/648174.480.fna':3.45E-4):0.001986,'/u/home/n/nzeltser/project-ngarud/sar86/648174.540.fna':0.00235):0.008846,'/u/home/n/nzeltser/project-ngarud/sar86/648174.255.fna':0.011192):0.009823,(('/u/home/n/nzeltser/project-ngarud/sar86/648174.435.fna':0.004235,'/u/home/n/nzeltser/project-ngarud/sar86/648174.209.fna':0.004229):0.001262,(('/u/home/n/nzeltser/project-ngarud/sar86/648174.221.fna':7.31E-4,'/u/home/n/nzeltser/project-ngarud/sar86/648174.211.fna':6.67E-4):0.003382,'/u/home/n/nzeltser/project-ngarud/sar86/648174.180.fna':0.004079):0.001412):0.015519):0.078988,(((('/u/home/n/nzeltser/project-ngarud/sar86/648174.571.fna':0.017504,'/u/home/n/nzeltser/project-ngarud/sar86/648174.38.fna':0.017515):0.009721,'/u/home/n/nzeltser/project-ngarud/sar86/648174.129.fna':0.027284):0.006017,'/u/home/n/nzeltser/project-ngarud/sar86/648174.30.fna':0.033269):0.066731,((('/u/home/n/nzeltser/project-ngarud/sar86/648174.551.fna':5.29E-4,'/u/home/n/nzeltser/project-ngarud/sar86/648174.369.fna':5.39E-4):0.024357,('/u/home/n/nzeltser/project-ngarud/sar86/648174.368.fna':0.008256,'/u/home/n/nzeltser/project-ngarud/sar86/648174.154.fna':0.008247):0.016639):0.075109,(((('/u/home/n/nzeltser/project-ngarud/sar86/648174.539.fna':0.00337,(('/u/home/n/nzeltser/project-ngarud/sar86/648174.360.fna':6.5E-4,'/u/home/n/nzeltser/project-ngarud/sar86/648174.118.fna':6.33E-4):5.77E-4,'/u/home/n/nzeltser/project-ngarud/sar86/648174.300.fna':0.001208):0.002153):0.016922,'/u/home/n/nzeltser/project-ngarud/sar86/648174.219.fna':0.02029):0.07971,'/u/home/n/nzeltser/project-ngarud/sar86/648174.31.fna':0.1):0.0,((((((('/u/home/n/nzeltser/project-ngarud/sar86/648174.523.fna':4.47E-4,'/u/home/n/nzeltser/project-ngarud/sar86/648174.345.fna':4.59E-4):3.19E-4,'/u/home/n/nzeltser/project-ngarud/sar86/648174.151.fna':7.84E-4):0.010462,'/u/home/n/nzeltser/project-ngarud/sar86/648174.357.fna':0.011218):0.001134,'/u/home/n/nzeltser/project-ngarud/sar86/648174.113.fna':0.012354):0.001778,'/u/home/n/nzeltser/project-ngarud/sar86/648174.400.fna':0.014138):0.085863,'/u/home/n/nzeltser/project-ngarud/sar86/648174.293.fna':0.1):0.0,('/u/home/n/nzeltser/project-ngarud/sar86/648174.512.fna':0.1,(('/u/home/n/nzeltser/project-ngarud/sar86/648174.5.fna':0.09994,((('/u/home/n/nzeltser/project-ngarud/sar86/648174.288.fna':0.005747,'/u/home/n/nzeltser/project-ngarud/sar86/648174.259.fna':0.005727):5.75E-4,('/u/home/n/nzeltser/project-ngarud/sar86/648174.281.fna':0.005346,'/u/home/n/nzeltser/project-ngarud/sar86/648174.271.fna':0.005345):9.7E-4):8.64E-4,('/u/home/n/nzeltser/project-ngarud/sar86/648174.268.fna':0.006925,'/u/home/n/nzeltser/project-ngarud/sar86/648174.261.fna':0.006925):2.52E-4):0.092763):6.0E-5,(((((('/u/home/n/nzeltser/project-ngarud/sar86/648174.425.fna':0.053359,'/u/home/n/nzeltser/project-ngarud/sar86/648174.143.fna':0.05313):0.009663,'/u/home/n/nzeltser/project-ngarud/sar86/648174.22.fna':0.063192):0.022745,'/u/home/n/nzeltser/project-ngarud/sar86/648174.254.fna':0.08596):0.003164,(('/u/home/n/nzeltser/project-ngarud/sar86/648174.399.fna':0.00809,'/u/home/n/nzeltser/project-ngarud/sar86/648174.250.fna':0.008051):0.003004,'/u/home/n/nzeltser/project-ngarud/sar86/648174.141.fna':0.011093):0.077909):0.011009,('/u/home/n/nzeltser/project-ngarud/sar86/648174.24.fna':0.00855,'/u/home/n/nzeltser/project-ngarud/sar86/648174.20.fna':0.00855):0.091451):0.0,('/u/home/n/nzeltser/project-ngarud/sar86/648174.351.fna':0.1,('/u/home/n/nzeltser/project-ngarud/sar86/648174.29.fna':0.015508,('/u/home/n/nzeltser/project-ngarud/sar86/648174.274.fna':0.011112,'/u/home/n/nzeltser/project-ngarud/sar86/648174.264.fna':0.011118):0.004392):0.084493):0.0):0.0):0.0):0.0):0.0):0.0):0.0):0.0):0.0):0.0):0.0):0.0):0.0):0.0):0.0):0.0):0.0):0.0):0.0):0.0):0.0):0.0):0.0):3.8E-5);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=0.025;
+	set scaleAxis.minorTicks=0.005;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.02;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
